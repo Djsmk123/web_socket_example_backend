@@ -1,8 +1,5 @@
-from flask import Flask, session, jsonify
+from flask import Flask, jsonify
 from flask_socketio import SocketIO, join_room, leave_room, emit
-from flaskext.mysql import MySQL
-
-import datetime
 
 # Flask App Config
 app: Flask = Flask(__name__)
