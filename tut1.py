@@ -11,6 +11,7 @@ app.config['SESSION_TYPE'] = 'filesystem'
 socketio = SocketIO(app, cors_allowed_origins='*')
 
 
+
 # Home Page
 @app.route('/', methods=['GET', 'POST'])
 def index():
